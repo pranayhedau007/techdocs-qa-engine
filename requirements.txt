@@ -1,0 +1,27 @@
+# Core RAG
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-ollama==0.2.3
+
+# Vector Database
+qdrant-client==1.13.2
+
+# Document Loading
+pypdf==5.1.0
+
+# API
+fastapi==0.115.6
+uvicorn==0.32.1
+python-dotenv==1.0.1
+pydantic==2.10.4
+
+# Evaluation
+ragas==0.2.6
+datasets==3.2.0
+
+# UI
+streamlit==1.41.1
+
+# Utilities
+httpx==0.28.1
+tqdm==4.67.1

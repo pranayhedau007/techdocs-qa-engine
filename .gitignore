@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+echo "" >> .gitignore
+echo "# Local environment" >> .gitignore
+echo ".env" >> .gitignore
+echo "venv/" >> .gitignore
+echo "data/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo ".DS_Store" >> .gitignoreß
