@@ -65,11 +65,12 @@ def format_context(docs: list[Document]) -> str:
 def ask(
     question: str,
     k: int = 5,
+    method: str = "similarity",
     collection_name: str = "techdocs",
 ) -> dict[str, Any]:
     
     # Step 1: Retrieve relevant chunks
-    source_docs = retrieve(question, k=k, collection_name=collection_name)
+    source_docs = retrieve(question, k=k, method=method, collection_name=collection_name)
 
     # Step 2: Build prompt
     prompt = ChatPromptTemplate.from_messages([
