@@ -2,9 +2,11 @@
 langchain==0.3.14
 langchain-community==0.3.14
 langchain-ollama==0.2.3
+langchain-core==0.3.63
+langchain-qdrant==0.2.0
 
 # Vector Database
-qdrant-client==1.13.2
+qdrant-client>=1.7.0,<2.0.0
 
 # Document Loading
 pypdf==5.1.0
@@ -23,5 +25,6 @@ datasets==3.2.0
 streamlit==1.41.1
 
 # Utilities
+langsmith==0.2.11
 httpx==0.28.1
 tqdm==4.67.1
