@@ -30,7 +30,7 @@ The entire stack runs locally. No OpenAI API calls. No data leaving your machine
 
 ## Architecture
 
-!(assets/arch_diag.png)
+(assets/arch_diag.png)
 ---
 
 ## Stack
